@@ -75,4 +75,35 @@ cargo run -- serve-test
 
 > `/status` endpoint would not work in this case
 
+---
+
+## 🔒 **Stable Deployment Documentation - Frozen version**  
+*This fork is pinned to a verified commit for internal projects. Do not upgrade without auditing.*  
+
+### **Version Lock v0.3.0**  
+- **Commit**: [`4de8dd2`](https://github.com/soramitsu/iroha2-block-explorer-backend/tree/4de8dd2b993081645e04469b76b3552acd7cc62f)  
+- **Purpose**: Compatibility with blockchain Iroha 2.0.0-rc.2. (https://github.com/hyperledger/iroha)  
+
+### **Install from This Fork**  
+```shell
+cargo install --git https://github.com/DigitClopedia2024/iroha2-block-explorer-backend-rc2-frozen --rev 4de8dd2b993081645e04469b76b3552acd7cc62f
+```
+### **Recovery Protocol**
+
+1. Local backup with command:
+
+```shell
+git clone --mirror https://github.com/DigitClopedia2024/iroha2-block-explorer-backend-rc2-frozen
+```
+2. Reinstall with command:
+
+```shell
+cargo install --path /path/to/your/local/clone
+```
+
+### **License**
+
+Apache 2.0 (added to this fork; original had no license).
+
+*Frozen on 2024-03-15*
 
