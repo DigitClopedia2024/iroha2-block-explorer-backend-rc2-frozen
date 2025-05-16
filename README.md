@@ -24,6 +24,13 @@ cargo install --git https://github.com/soramitsu/iroha2-block-explorer-backend
 
 iroha_explorer help
 ```
+adapted to DiCl's internal project:
+
+```shell
+cargo install --git https://github.com/DigitClopedia2024/iroha2-block-explorer-backend-rc2-frozen --rev 4de8dd2b 
+
+iroha_explorer help
+```
 
 Or build and run locally from the repo with:
 
